@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    background:paleturquoise;
+}
+
+#home-navbar {
+    background: white;
+    font-family: monospace;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 6px 3px 2px rgba(0,0,0.05,0.1);
+}
+
+#homestuff {
+  background:peachpuff;
+  color:white;
+  padding-top: 300px;
+  padding-left: 55px;
+  padding-bottom: 10px;
+  font-size: 45px;
+  font-family: monospace;
+}
+
+#morestuff {
+  color:black;
+  margin-top: 10px;
+  margin-left: 60px;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* slide show */
+
+h4 {
+  margin-top: 30px;
+  font-family: monospace;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  letter-spacing: 1px;
+}
+
+h6{
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+  font-family: monospace;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  background: rgb(252, 223, 200);
+  border-radius: 10px;
+  box-shadow: 0 6px 3px 2px rgba(0,0,0.05,0.1);
+}
+
+#slide,
+.slide-image {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#slide {
+  position: center;
+  overflow: hidden;
+}
+
+/* slide images */
+
+#slide-image-row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0px;
+  transition: 0.5s left;
+}
+
+.slide-image img {
+  height: 100%;
+  width: auto;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+#slide-controls {
+  position: center;
+  top: 80%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#button-next,
+#button-previous {
+  outline: none;
+  font-family: monospace;
+}
+
+
+
+/* Grocery List */
+
+#lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+strong {
+  font-size: 25px;
+  font-family: monospace;
+  display: flex;
+  color: black;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 260px;
+  margin-right: 260px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: peachpuff;
+  box-shadow: 0 6px 3px 2px rgba(0,0,0.05,0.1);
+  
+}
+
+.list1 {
+  background: white;
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 20px 30px;
+  box-shadow: 0 6px 3px 2px rgba(0,0,0.05,0.1);
+  font-size: 22px;
+  font-family: monospace;
+}
+
+.list2 {
+  background: white;
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 20px 30px;
+  box-shadow: 0 6px 3px 2px rgba(0,0,0.05,0.1);
+  font-size: 22px;
+  font-family: monospace;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  letter-spacing: 1px;
+}
+
+h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+li label {
+  width: 370px;
+  padding: 13px 0 13px 20px;
+}
+
+li input[type="checkbox"],
+li label {
+  cursor: pointer;
+}
+
+li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+li small {
+  font-size: 14px;
+  color: black;
+  background: rgb(252, 223, 200);
+  padding: 2px 6px;
+  margin-left: 5px;
+}
